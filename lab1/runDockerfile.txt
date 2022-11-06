@@ -1,0 +1,8 @@
+docker build . -t aos 
+(будує контейнер з назвою aos)
+
+docker images
+(перевірка чи контейнер створився)
+
+docker run --rm -it aos
+(запуск контейнеру aos)
