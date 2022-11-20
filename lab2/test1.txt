@@ -1,0 +1,4 @@
+Load R2 -5
+Load R1 10
+Load R3 6
+LShift R3 3

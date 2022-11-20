@@ -1,0 +1,3 @@
+Load R3 123
+LoadOp R3 2
+RShift R4 1
