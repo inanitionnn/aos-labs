@@ -174,12 +174,12 @@ def openFile(file):
 
 def main():
     global R1, R2, R3, R4, PC, TC, PS, OP
-    binRand = intToBin(2)  # random start number for register
-    R1, R2, R3, R4 = binRand, binRand, binRand, binRand  # registers
+    R1, R2, R3, R4 = 0, 0, 0, 0  # registers
     PC = 0  # command number
     TC = 1  # tact
     PS = 0  # sign
     OP = ["0"*6, "0"*6, "0"*6, "0"*6]  # 12 bytes RAM
+
     print("================================================== ")
     print("Please enter the comand file name:")
     if platform.system() == "Linux":
