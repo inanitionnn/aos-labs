@@ -1,1 +1,1 @@
-Docker: Docker run -ti _name of image_
+Docker: Docker run -ti name-of-image
